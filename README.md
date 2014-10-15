@@ -1,4 +1,4 @@
-GDG_GOA_Android_Workshop
+GDG GOA Android Workshop
 ========================
 
 Movies app covered during GDG Goa workshop
