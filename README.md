@@ -3,16 +3,15 @@ GDG_GOA_Android_Workshop
 
 Movies app covered during GDG Goa workshop
 
-# APIs Used
+** APIs Used **
 
 **Tract API**
 
-# Third party libraried used
+** Third party libraried used **
 
-[**Picasso**](http://square.github.io/picasso/): 
+[**Picasso**](http://square.github.io/picasso/)
+[**retrofit**](http://square.github.io/retrofit/)
 
-
- is used to get list of movies and their details
 
 **Movies Grid** 
 
