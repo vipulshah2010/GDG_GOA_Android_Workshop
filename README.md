@@ -7,7 +7,7 @@ Movies app covered during GDG Goa workshop
 
 [**Tract Movies API**](https://trakt.tv/api-docs)
 
-#Third party libraried used
+#Third party libraries used
 
 [**Picasso**](http://square.github.io/picasso/)
 
