@@ -10,6 +10,7 @@ Movies app covered during GDG Goa workshop
 #Third party libraried used
 
 [**Picasso**](http://square.github.io/picasso/)
+
 [**retrofit**](http://square.github.io/retrofit/)
 
 #Screenshots
