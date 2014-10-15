@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/moviePoster"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder"
+        android:background="#686867"
+        android:padding="2dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_toRightOf="@id/moviePoster"
+        android:textStyle="bold"
+        android:text="Superman" />
+
+    <TextView
+        android:id="@+id/movieReleaseYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/moviePoster"
+        android:layout_below="@id/movieTitle"
+        android:text="2014" />
+
+    <TextView
+        android:id="@+id/movieRuntime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/moviePoster"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_below="@id/movieReleaseYear"
+        android:text="1 hr 32 mins" />
+
+    <TextView
+        android:id="@+id/movieRatings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:layout_below="@id/moviePoster"
+        android:text="50 / 100" />
+
+    <TextView
+        android:id="@+id/storyLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieRatings"
+        android:text="Storyline"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/movieStoryline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/storyLine"
+        android:layout_marginTop="5dp"
+        android:text="On the occasion of his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble. Soon his lies, deceits and strange behavior have everyone asking the same dark question: Did Nick Dunne kill his wife?"
+        android:gravity="left"/>
+
+</RelativeLayout>
